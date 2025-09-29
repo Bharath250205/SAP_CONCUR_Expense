@@ -20,3 +20,8 @@ Validated HANA_CLOUD connection in Datasphere (data/replication/remote tables en
 
 Tried creating DB Users for JDBC → found restricted in trial edition.
 🔗 https://help.sap.com/docs/SAP_DATASPHERE/02d3b1ccadb74ab786f6b4c0802e6f65/f111f39487244e6d882d515635a6c1f7.html
+
+
+BDC Systems 
+
+https://trial-bdc-core.eu10.hcs.cloud.sap/bdc-ui/index.html#/bdc_systemLandscape
