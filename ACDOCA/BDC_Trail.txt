@@ -1,0 +1,22 @@
+Logged into SAP S/4HANA Fiori Launchpad → used Display Line Items in General Ledger app to fetch ACDOCA data.
+🔗 https://help.sap.com/docs/SAP_FIORI_LAUNCHPAD
+
+Downloaded ACDOCA line item data (CSV) from the Fiori app.
+
+Logged into SAP Datasphere (BDC Trial) and uploaded the CSV into a Space (GE225684).
+🔗 https://www.sap.com/products/technology-platform/datasphere/trial.html
+
+Created SQL Views in Datasphere for aggregation (e.g., SUM amounts, group by G/L Account).
+
+Deployed and exposed views as a Fact Model for analytics use.
+
+Connected Datasphere with SAP Analytics Cloud (SAC) using a Live Connection.
+🔗 https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/5c0d1d50b8e3400f8b178d9a21b8ca6a/live-data-connections
+
+Explored BDC integration with Databricks to consume Datasphere data for AI/ML.
+🔗 https://www.databricks.com/blog/2023/05/16/sap-and-databricks-partnership-modernize-data-and-ai.html
+
+Validated HANA_CLOUD connection in Datasphere (data/replication/remote tables enabled).
+
+Tried creating DB Users for JDBC → found restricted in trial edition.
+🔗 https://help.sap.com/docs/SAP_DATASPHERE/02d3b1ccadb74ab786f6b4c0802e6f65/f111f39487244e6d882d515635a6c1f7.html
